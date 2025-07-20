@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undangan Pernikahan Rendi & Sinta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="overlay">
+    <h2>Undangan Pernikahan</h2>
+    <h1>Rendi & Sinta</h1>
+    <h3>30 Juli 2025 | Balai Krakatau, Bandar Lampung</h3>
+
+    <div class="countdown" id="countdown">Memuat hitung mundur...</div>
+
+    <h3>Galeri Prewedding</h3>
+    <div class="galeri">
+      <img src="img/prewed1.jpg" alt="Prewed1" />
+      <img src="img/prewed2.jpg" alt="Prewed2" />
+      <img src="img/prewed3.jpg" alt="Prewed3" />
+    </div>
+
+    <div class="form">
+      <h3>Konfirmasi Kehadiran</h3>
+      <form action="https://formspree.io/f/mnqezqoy" method="POST">
+        <input type="text" name="nama" placeholder="Nama Anda" required />
+        <input type="text" name="jumlah" placeholder="Jumlah Kehadiran" required />
+        <textarea name="pesan" rows="3" placeholder="Ucapan / Pesan"></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </div>
+  
+    <!-- Nomor Rekening -->
+    <div class="form">
+      <h3>Ungkapan Tanda Kasih</h3>
+      <p>Jika Bapak/Ibu/Saudara berkenan memberikan tanda kasih, dapat dikirimkan melalui rekening berikut:</p>
+      <p><strong>Bank BCA</strong><br>1234567890 a.n. Rendi Pratama</p>
+      <p><strong>Bank Mandiri</strong><br>9876543210 a.n. Sinta Lestari</p>
+    </div>
+
+  
+    <div class="form">
+      <h3>QR Code Pembayaran</h3>
+      <div class="galeri">
+        <div>
+          <p><strong>QR BCA - Rendi</strong></p>
+          <img src="img/qr_bca_rendi.png" alt="QR BCA Rendi" width="150">
+        </div>
+        <div>
+          <p><strong>QR Mandiri - Sinta</strong></p>
+          <img src="img/qr_mandiri_sinta.png" alt="QR Mandiri Sinta" width="150">
+        </div>
+      </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

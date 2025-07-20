@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: url('img/bg-undangan.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.overlay {
+  background: rgba(0,0,0,0.6);
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+h1, h2, h3 {
+  margin: 0.5em 0;
+}
+.countdown {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.galeri img {
+  width: 150px;
+  border-radius: 10px;
+}
+.form {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+}
+button {
+  padding: 10px 20px;
+  background: #ffd700;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
